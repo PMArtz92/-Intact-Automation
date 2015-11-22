@@ -1,89 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>Home</title>
-		<meta charset="utf-8">
-		<meta name = "format-detection" content = "telephone=no" />
-		<link rel="icon" href="assert/images/favicon.ico">
-		<link rel="shortcut icon" href="assert/images/favicon.ico" />
-		<link rel="stylesheet" href="assert/booking/css/booking.css">
-		<link rel="stylesheet" href="assert/css/camera.css">
-		<link rel="stylesheet" href="assert/css/owl.carousel.css">
-		<link rel="stylesheet" href="assert/css/style.css">
-		<script src="assert/js/jquery.js"></script>
-		<script src="assert/js/jquery-migrate-1.2.1.js"></script>
-		<script src="assert/js/script.js"></script>
-		<script src="assert/js/superfish.js"></script>
-		<script src="assert/js/jquery.ui.totop.js"></script>
-		<script src="assert/js/jquery.equalheights.js"></script>
-		<script src="assert/js/jquery.mobilemenu.js"></script>
-		<script src="assert/js/jquery.easing.1.3.js"></script>
-		<script src="assert/js/owl.carousel.js"></script>
-		<script src="assert/js/camera.js"></script>
-		<!--[if (gt IE 9)|!(IE)]><!-->
-		<script src="assert/js/jquery.mobile.customized.min.js"></script>
-		<!--<![endif]-->
-		<script src="assert/booking/js/booking.js"></script>
-		<script>
-			$(document).ready(function(){
-				jQuery('#camera_wrap').camera({
-					loader: false,
-					pagination: false ,
-					minHeight: '444',
-					thumbnails: false,
-					height: '28.28125%',
-					caption: true,
-					navigation: true,
-					fx: 'mosaic'
-				});
-				$().UItoTop({ easingType: 'easeOutQuart' });
-			});
-		</script>
-		<!--[if lt IE 8]>
-			<div style=' clear: both; text-align:center; position: relative;'>
-				<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-					<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-				</a>
-			</div>
-			<![endif]-->
-		<!--[if lt IE 9]>
-			<script src="js/html5shiv.js"></script>
-			<link rel="stylesheet" media="screen" href="css/ie.css">
-		<![endif]-->
-	</head>
-	<body class="page1" id="top">
-		<div class="main">
-<!--==============================header=================================-->
-			<header>
-				<div class="menu_block ">
-					<div class="container_12">
-						<div class="grid_12">
-							<nav class="horizontal-nav full-width horizontalNav-notprocessed">
-								<ul class="sf-menu">
-									<li class="current"><a href="index.html">Home</a></li>
-									<li><a href="controller/home/about">About</a></li>
-									<li><a href="index-2.html">Cars</a></li>
-									<li><a href="index-3.html">Services</a></li>
-									<li><a href="index-4.html">Contacts</a></li>
-								</ul>
-							</nav>
-							<div class="clear"></div>
-						</div>
-						<div class="clear"></div>
-					</div>
-				</div>
-				<div class="container_12">
-					<div class="grid_12">
-						<h1>
-							<a href="index.html">
-								<img src="assert/images/logo.png" alt="Your Happy Family">
-							</a>
-						</h1>
-					</div>
-				</div>
-				<div class="clear"></div>
-			</header>
-			<div class="slider_wrapper ">
+<div class="slider_wrapper ">
 				<div id="camera_wrap" class="">
 					<div data-src="assert/images/slide.jpg" ></div>
 					<div data-src="assert/images/slide1.jpg" ></div>
@@ -97,7 +12,7 @@
 							<div class="banner_title">
 								<img src="assert/images/icon1.png" alt="">
 								<div class="extra_wrapper">Fast&amp;
-									<div class="color1">Safe</div>
+									<div class="color1">Quick</div>
 								</div>
 							</div>
 							Dorem ipsum dolor sit amet, consectetur adipiscinger elit. In mollis erat mattis neque facilisis, sit ameter ultricies erat rutrum. Cras facilisis, nulla vel viver auctor, leo magna sodales felis, quis malesuad
@@ -124,8 +39,8 @@
 						<div class="maxheight">
 							<div class="banner_title">
 								<img src="assert/images/icon3.png" alt="">
-								<div class="extra_wrapper">Package
-									<div class="color1">Delivery</div>
+								<div class="extra_wrapper">New
+									<div class="color1">Look</div>
 								</div>
 							</div>
 							Kurem ipsum dolor sit amet, consectetur adipiscinger elit. In mollis erat mattis neque facilisis, sit ameter ultricies erat rutrum. Cras facilisis, nulla vel viver auctor, leo magna sodales felis, quis malesuki
@@ -139,7 +54,7 @@
 				<div class="container_12">
 					<div class="grid_12">
 						<div class="fa fa-phone"></div>+ 1800 559 6580
-						<span>ORDER NOW!</span>
+						<span>CALL US NOW!</span>
 					</div>
 					<div class="clear"></div>
 				</div>
@@ -147,7 +62,7 @@
 <!--==============================Content=================================-->
 			<div class="content"><div class="ic">More Website Templates @ TemplateMonster.com - April 07, 2014!</div>
 				<div class="container_12">
-					<div class="grid_5">
+					<!--<div class="grid_5">
 						<h3>Booking Form</h3>
 						<form id="bookingForm">
 							<div class="fl1">
@@ -212,35 +127,24 @@
 							</div>
 							<a href="#" class="btn" data-type="submit">Submit</a>
 						</form>
-					</div>
-					<div class="grid_6 prefix_1">
-						<a href="index2.html" class="type"><img src="assert/images/page1_img1.jpg" alt=""><span class="type_caption">Economy</span></a>
-						<a href="index2.html" class="type"><img src="assert/images/page1_img2.jpg" alt=""><span class="type_caption">Standard</span></a>
-						<a href="index2.html" class="type"><img src="assert/images/page1_img3.jpg" alt=""><span class="type_caption">Lux</span></a>
-					</div>
+					</div>-->
+                        <div class="grid_4">
+                            <a href="index2.html" class="type"><img src="assert/images/page1_img1.jpg" alt=""><span class="type_caption">Economy</span></a>
+                        </div>
+
+                        <div class="grid_4">
+                            <a href="index2.html" class="type"><img src="assert/images/page1_img2.jpg" alt=""><span class="type_caption">Standard</span></a>
+                        </div>
+
+                        <div class="grid_4">
+                            <a href="index2.html" class="type"><img src="assert/images/page1_img3.jpg" alt=""><span class="type_caption">Lux</span></a>
+                        </div>
+
 					<div class="clear"></div>
 				</div>
 			</div>
 		</div>
-<!--==============================footer=================================-->
-		<footer>
-			<div class="container_12">
-				<div class="grid_12">
-					<div class="f_phone"><span>Call Us:</span> + 1800 559 6580</div>
-					<div class="socials">
-						<a href="#" class="fa fa-twitter"></a>
-						<a href="#" class="fa fa-facebook"></a>
-						<a href="#" class="fa fa-google-plus"></a>
-					</div>
-					<div class="copy">
-						<div class="st1">
-						<div class="brand">Tour<span class="color1">T</span>axi </div>
-						&copy; 2014	| <a href="#">Privacy Policy</a> </div> Website designed by <a href="http://www.templatemonster.com/" rel="nofollow">TemplateMonster.com</a>
-					</div>
-				</div>
-				<div class="clear"></div>
-			</div>
-		</footer>
+
 		<script>
 			$(function (){
 				$('#bookingForm').bookingForm({
