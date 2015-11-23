@@ -30,6 +30,12 @@ class Home extends CI_Controller {
         $this->load->view("pages/contact");
         $this->load->view("template/footer");
     }
+
+    public function service_form(){
+        $this->load->view("template/header");
+        $this->load->view("pages/service_form");
+        $this->load->view("template/footer");
+    }
 		
 	
 }

@@ -888,6 +888,7 @@ header h1 a {
     -moz-transition: all 0.25s ease-in-out;
     -o-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
+    float: right;
 }
 
 .service-btn:hover{
@@ -898,4 +899,30 @@ header h1 a {
     -o-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
     box-shadow: #979797 1px 1px 2px ;
+}
+
+#form .check-box input{
+    width:15px !important;
+    height: 15px !important;
+}
+
+#form .submit-form .service-btn {
+    height: 45px !important;
+    width: 120px !important;
+    font-size: 16px !important;
+    background-color: #fdc903 !important;
+    border: solid thick #fdad0a !important;
+    float: right;
+    text-shadow: none;
+}
+
+#form .submit-form .service-btn:hover{
+    border: solid thin #fdad0a !important;
+    text-shadow:0 1px 0 #080808 !important;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    box-shadow: #979797 1px 1px 2px ;
+    color: #000;
 }

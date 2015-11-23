@@ -10,7 +10,6 @@
 	float:left;
 	background: #fefefe;
 	box-sizing: border-box;
-	-webkit-appearance: none;
 	-moz-box-sizing: border-box; /*Firefox 1-3*/
 	-webkit-box-sizing: border-box; /* Safari */
 	color: #878787;

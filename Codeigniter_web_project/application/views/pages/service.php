@@ -2,7 +2,8 @@
     <div class="container_12">
         <div class="grid_12">
             <h3>Our Services</h3>
-            <button style="float: right;" class="service-btn">Book Service</button>
+            <!--<button style="" class="service-btn" onclick="">Book Service</button>-->
+            <form action="<?php echo base_url()?>home/service_form" style="float: right"><input type="submit" value="Book Service" class="service-btn"></form>
         </div>
 
         <div class="grid_12">
