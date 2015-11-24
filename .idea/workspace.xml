@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/controllers/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74626863" vertical-offset="569" max-vertical-offset="1139">
-              <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
+            <state vertical-scroll-proportion="-10.807693" vertical-offset="994" max-vertical-offset="1615">
+              <caret line="75" column="29" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -38,37 +38,13 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/template/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.692307" vertical-offset="869" max-vertical-offset="1428">
-              <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+            <state vertical-scroll-proportion="-12.692307" vertical-offset="843" max-vertical-offset="1445">
+              <caret line="69" column="76" selection-start-line="69" selection-start-column="76" selection-end-line="69" selection-end-column="76" />
               <folding>
-                <marker date="1448386620495" expanded="false" signature="2239:2291" placeholder="..." />
-                <marker date="1448386620495" expanded="true" signature="2292:2684" placeholder="..." />
-                <marker date="1448386620495" expanded="true" signature="2411:2673" placeholder="..." />
+                <marker date="1448387578382" expanded="false" signature="2239:2291" placeholder="..." />
+                <marker date="1448387578382" expanded="true" signature="2292:2684" placeholder="..." />
+                <marker date="1448387578382" expanded="true" signature="2411:2673" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="headeruser.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/template/headeruser.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.038462" vertical-offset="835" max-vertical-offset="1394">
-              <caret line="66" column="75" selection-start-line="66" selection-start-column="75" selection-end-line="66" selection-end-column="75" />
-              <folding>
-                <marker date="1448386029025" expanded="false" signature="2239:2291" placeholder="..." />
-                <marker date="1448386029025" expanded="true" signature="2292:2684" placeholder="..." />
-                <marker date="1448386029025" expanded="true" signature="2411:2673" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userprofile.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/user/userprofile.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.076923" vertical-offset="835" max-vertical-offset="1462">
-              <caret line="63" column="45" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -76,18 +52,8 @@
       <file leaf-file-name="orders.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/user/orders.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="340">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manager.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/admin/manager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="204">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="340">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -96,28 +62,18 @@
       <file leaf-file-name="employee.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/admin/employee.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="306">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="report.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/admin/report.php">
+      <file leaf-file-name="manager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/admin/manager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="booking.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/admin/booking.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="306">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -126,9 +82,33 @@
       <file leaf-file-name="mobile_assit.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/admin/mobile_assit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="306">
+              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="report.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/admin/report.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="306">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="headeradmin.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/template/headeradmin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.69588554" vertical-offset="835" max-vertical-offset="1445">
+              <caret line="71" column="26" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+              <folding>
+                <marker date="1448387523197" expanded="false" signature="2239:2291" placeholder="..." />
+                <marker date="1448387523197" expanded="true" signature="2292:2684" placeholder="..." />
+                <marker date="1448387523197" expanded="true" signature="2411:2673" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -163,12 +143,17 @@
         <option value="$PROJECT_DIR$/Codeigniter_web_project/assert/css/style.css" />
         <option value="$PROJECT_DIR$/Codeigniter_web_project/application/views/pages/service_form.php" />
         <option value="$PROJECT_DIR$/Codeigniter_web_project/application/views/user/orders.php" />
-        <option value="$PROJECT_DIR$/Codeigniter_web_project/application/views/template/headeradmin.php" />
         <option value="$PROJECT_DIR$/Codeigniter_web_project/application/views/template/headeruser.php" />
         <option value="$PROJECT_DIR$/Codeigniter_web_project/application/views/user/signup.php" />
         <option value="$PROJECT_DIR$/Codeigniter_web_project/application/views/user/userprofile.php" />
-        <option value="$PROJECT_DIR$/Codeigniter_web_project/application/views/template/header.php" />
         <option value="$PROJECT_DIR$/Codeigniter_web_project/application/controllers/home.php" />
+        <option value="$PROJECT_DIR$/Codeigniter_web_project/application/views/template/headeradmin.php" />
+        <option value="$PROJECT_DIR$/Codeigniter_web_project/application/views/template/header.php" />
+        <option value="$PROJECT_DIR$/Codeigniter_web_project/application/views/admin/booking.php" />
+        <option value="$PROJECT_DIR$/Codeigniter_web_project/application/views/admin/employee.php" />
+        <option value="$PROJECT_DIR$/Codeigniter_web_project/application/views/admin/manager.php" />
+        <option value="$PROJECT_DIR$/Codeigniter_web_project/application/views/admin/mobile_assit.php" />
+        <option value="$PROJECT_DIR$/Codeigniter_web_project/application/views/admin/report.php" />
       </list>
     </option>
   </component>
@@ -721,18 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/template/headeradmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66231346" vertical-offset="835" max-vertical-offset="1445">
-          <caret line="69" column="99" selection-start-line="69" selection-start-column="99" selection-end-line="69" selection-end-column="99" />
-          <folding>
-            <marker date="1448386000209" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1448386000209" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1448386000209" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/assert/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="14392" max-vertical-offset="15878">
@@ -757,91 +730,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/template/header.php">
+    <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/user/userprofile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.692307" vertical-offset="869" max-vertical-offset="1428">
-          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
-          <folding>
-            <marker date="1448386620495" expanded="false" signature="2239:2291" placeholder="..." />
-            <marker date="1448386620495" expanded="true" signature="2292:2684" placeholder="..." />
-            <marker date="1448386620495" expanded="true" signature="2411:2673" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.42218247" vertical-offset="835" max-vertical-offset="1462">
+          <caret line="63" column="45" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/template/headeruser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.038462" vertical-offset="835" max-vertical-offset="1394">
+        <state vertical-scroll-proportion="0.54382825" vertical-offset="835" max-vertical-offset="1394">
           <caret line="66" column="75" selection-start-line="66" selection-start-column="75" selection-end-line="66" selection-end-column="75" />
           <folding>
-            <marker date="1448386029025" expanded="false" signature="2239:2291" placeholder="..." />
-            <marker date="1448386029025" expanded="true" signature="2292:2684" placeholder="..." />
-            <marker date="1448386029025" expanded="true" signature="2411:2673" placeholder="..." />
+            <marker date="1448386029025" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1448386029025" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1448386029025" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/user/userprofile.php">
+    <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/controllers/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.076923" vertical-offset="835" max-vertical-offset="1462">
-          <caret line="63" column="45" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
+        <state vertical-scroll-proportion="-10.807693" vertical-offset="994" max-vertical-offset="1615">
+          <caret line="75" column="29" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/template/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.692307" vertical-offset="843" max-vertical-offset="1445">
+          <caret line="69" column="76" selection-start-line="69" selection-start-column="76" selection-end-line="69" selection-end-column="76" />
+          <folding>
+            <marker date="1448387578382" expanded="false" signature="2239:2291" placeholder="..." />
+            <marker date="1448387578382" expanded="true" signature="2292:2684" placeholder="..." />
+            <marker date="1448387578382" expanded="true" signature="2411:2673" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/admin/booking.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09123435" vertical-offset="0" max-vertical-offset="559">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/user/orders.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="340">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/admin/manager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="562">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/admin/employee.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="306">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/admin/report.php">
+    <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/admin/manager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/admin/booking.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="306">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/admin/mobile_assit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="306">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/controllers/home.php">
+    <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/admin/report.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74626863" vertical-offset="569" max-vertical-offset="1139">
-          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
+        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="306">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codeigniter_web_project/application/views/template/headeradmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69588554" vertical-offset="835" max-vertical-offset="1445">
+          <caret line="71" column="26" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+          <folding>
+            <marker date="1448387523197" expanded="false" signature="2239:2291" placeholder="..." />
+            <marker date="1448387523197" expanded="true" signature="2292:2684" placeholder="..." />
+            <marker date="1448387523197" expanded="true" signature="2411:2673" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

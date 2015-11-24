@@ -55,7 +55,35 @@ class Home extends CI_Controller {
         $this->load->view("template/footer");
     }
 
-    
+    public function booking(){
+        $this->load->view("template/headeradmin");
+        $this->load->view("admin/booking");
+        $this->load->view("template/footer");
+    }
+
+    public function employee(){
+        $this->load->view("template/headeradmin");
+        $this->load->view("admin/employee");
+        $this->load->view("template/footer");
+    }
+
+    public function manager(){
+        $this->load->view("template/headeradmin");
+        $this->load->view("admin/manager");
+        $this->load->view("template/footer");
+    }
+
+    public function report(){
+        $this->load->view("template/headeradmin");
+        $this->load->view("admin/report");
+        $this->load->view("template/footer");
+    }
+
+    public function mobile_assit(){
+        $this->load->view("template/headeradmin");
+        $this->load->view("admin/mobile_assit");
+        $this->load->view("template/footer");
+    }
 		
 	
 }

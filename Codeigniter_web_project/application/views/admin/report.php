@@ -1,7 +1,13 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: PM
- * Date: 11/24/2015
- * Time: 11:14 PM
- */ 
+<div class="content">
+    <div class="container_12">
+        <div class="grid_12">
+            <h3>Report</h3>
+        </div>
+
+        <div>
+
+        </div>
+
+        <div class="clear"></div>
+    </div>
+</div>
