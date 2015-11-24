@@ -63,10 +63,11 @@
                         <ul class="sf-menu">
                             <li><a href="<?php echo base_url()?>">Home</a></li>
                             <!--class="current"-->
-                            <li><a href="<?php echo base_url()?>home/about">About</a></li>
-                            <li><a href="<?php echo base_url()?>home/service">Services</a></li>
-                            <li><a href="<?php echo base_url()?>home/contact">Contacts</a></li>
-                            <li><a href="<?php echo base_url()?>home/orders">My Account</a></li>
+                            <li><a href="<?php echo base_url()?>home/about">Manager</a></li>
+                            <li><a href="<?php echo base_url()?>home/service">Employee</a></li>
+                            <li><a href="<?php echo base_url()?>home/service">Report</a></li>
+                            <li><a href="<?php echo base_url()?>home/service">Bookings</a></li>
+                            <li><a href="<?php echo base_url()?>home/service">Mobile Assit</a></li>
                         </ul>
                     </nav>
                     <div class="clear"></div>

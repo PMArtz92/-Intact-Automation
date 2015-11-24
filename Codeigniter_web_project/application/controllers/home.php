@@ -36,6 +36,26 @@ class Home extends CI_Controller {
         $this->load->view("pages/service_form");
         $this->load->view("template/footer");
     }
+
+    public function userprofile(){
+        $this->load->view("template/headeruser");
+        $this->load->view("user/userprofile");
+        $this->load->view("template/footer");
+    }
+
+    public function orders(){
+        $this->load->view("template/headeruser");
+        $this->load->view("user/orders");
+        $this->load->view("template/footer");
+    }
+
+    public function signup(){
+        $this->load->view("template/headeruser");
+        $this->load->view("user/signup");
+        $this->load->view("template/footer");
+    }
+
+    
 		
 	
 }

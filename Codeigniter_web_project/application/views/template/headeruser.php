@@ -63,10 +63,8 @@
                         <ul class="sf-menu">
                             <li><a href="<?php echo base_url()?>">Home</a></li>
                             <!--class="current"-->
-                            <li><a href="<?php echo base_url()?>home/about">About</a></li>
-                            <li><a href="<?php echo base_url()?>home/service">Services</a></li>
-                            <li><a href="<?php echo base_url()?>home/contact">Contacts</a></li>
-                            <li><a href="<?php echo base_url()?>home/orders">My Account</a></li>
+                            <li><a href="<?php echo base_url()?>home/userprofile">Profile</a></li>
+                            <li><a href="<?php echo base_url()?>home/orders">Bookings</a></li>
                         </ul>
                     </nav>
                     <div class="clear"></div>
