@@ -27,7 +27,7 @@ a[href^="tel:"] {
 
 body {
 	position: relative;
-    background-color: #4a4a4a;
+    background-color: #fff;
     color: #878787;
     font: 14px/20px 'Open Sans', sans-serif;
 }
@@ -556,6 +556,7 @@ footer {
     color: #aaa;
     line-height: 18px;
     font-family: 'Roboto Condensed', sans-serif;
+    background-color: #4a4a4a;
 }
 
 .copy {
@@ -925,4 +926,15 @@ header h1 a {
     transition: all 0.25s ease-in-out;
     box-shadow: #979797 1px 1px 2px ;
     color: #000;
+}
+
+
+/*------------Manager table------------*/
+
+.table_content th{
+    height: 25px;
+    background-color: #4a4a4a;
+    text-align: center;
+    color: #fff;
+
 }

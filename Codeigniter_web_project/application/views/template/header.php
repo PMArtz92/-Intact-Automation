@@ -67,7 +67,7 @@
                             <li><a href="<?php echo base_url()?>home/service">Services</a></li>
                             <li><a href="<?php echo base_url()?>home/contact">Contacts</a></li>
                             <li><a href="<?php echo base_url()?>home/orders">My Account</a></li>
-                            <li><a href="<?php echo base_url()?>home/manager">Admin</a></li>
+                            <li><a href="<?php echo base_url()?>home/manager_operation">Admin</a></li>
                         </ul>
                     </nav>
                     <div class="clear"></div>

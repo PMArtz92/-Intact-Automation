@@ -63,7 +63,7 @@
                         <ul class="sf-menu">
                             <li><a href="<?php echo base_url()?>">Home</a></li>
                             <!--class="current"-->
-                            <li><a href="<?php echo base_url()?>home/manager">Manager</a></li>
+                            <li><a href="<?php echo base_url()?>home/manager_operation">Manager</a></li>
                             <li><a href="<?php echo base_url()?>home/employee">Employee</a></li>
                             <li><a href="<?php echo base_url()?>home/report">Report</a></li>
                             <li><a href="<?php echo base_url()?>home/booking">Bookings</a></li>

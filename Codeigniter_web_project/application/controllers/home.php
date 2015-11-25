@@ -67,10 +67,10 @@ class Home extends CI_Controller {
         $this->load->view("template/footer");
     }
 
-    public function manager(){
+    public function manager_operation(){
         $this->load->view("template/headeradmin");
-        $this->load->view("admin/manager");
-        $this->load->view("template/footer");
+        $this->load->view("admin/manager_operation");
+        //$this->load->view("template/footer");
     }
 
     public function report(){
