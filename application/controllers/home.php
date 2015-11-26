@@ -49,7 +49,7 @@ class Home extends CI_Controller {
     }
     public function booking(){
         $this->load->view("template/headeradmin");
-        $this->load->view("admin/booking");
+        $this->load->view("admin/calender/index");
         $this->load->view("template/footer");
     }
     public function employee(){
@@ -73,10 +73,55 @@ class Home extends CI_Controller {
         $this->load->view("template/footer");
     }
 
-    public function manager_add_remove(){
+    public function manager_operation(){
         $this->load->view("template/headeradmin");
         $this->load->view("admin/manager_operation");
         $this->load->view("template/footer");
     }
 
+    public function manager_signup(){
+        $this->load->view("template/headeradmin");
+        $this->load->view("admin/managersignup");
+        $this->load->view("template/footer");
+    }
+
+    public function employee_operation(){
+        $this->load->view("template/headeradmin");
+        $this->load->view("admin/employee_operation");
+        $this->load->view("template/footer");
+    }
+
+    public function employee_signup(){
+        $this->load->view("template/headeradmin");
+        $this->load->view("admin/employeesignup");
+        $this->load->view("template/footer");
+    }
+
+    public function manager_create(){
+        $this->load->model('registration_module');
+        if($query= $this->registration_module->create_manager()){
+            $this->load->view("template/headeradmin");
+            $this->load->view("admin/manager");
+            $this->load->view("template/footer");
+        }
+        else{
+            $this->load->view("template/headeradmin");
+            $this->load->view("admin/managersignup");
+            $this->load->view("template/footer");
+        }
+    }
+
+    public function employee_create(){
+        $this->load->model('registration_module');
+        if($query= $this->registration_module->create_employee()){
+            $this->load->view("template/headeradmin");
+            $this->load->view("admin/manager");
+            $this->load->view("template/footer");
+        }
+        else{
+            $this->load->view("template/headeradmin");
+            $this->load->view("admin/managersignup");
+            $this->load->view("template/footer");
+        }
+    }
 }

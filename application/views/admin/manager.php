@@ -11,8 +11,8 @@
                                 <div class="color1">Add/Remove</div>
                             </div>
                         </div>
-                            admin can create Manager, update manager details and remove Manager.This is an special grant operation.
-                        <a class="fa fa-share-square" href="<?php echo base_url()?>index.php/home/manager_add_remove"></a>
+                            admin can create Manager, update manager details and remove Manager.This is a special grant operation.
+                        <a class="fa fa-share-square" href="<?php echo base_url()?>index.php/home/manager_operation"></a>
                     </div>
                 </div>
             </div>
