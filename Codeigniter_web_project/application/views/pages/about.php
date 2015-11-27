@@ -2,7 +2,7 @@
     <div class="container_12">
         <div class="grid_7">
             <h3>A Few Words About Us</h3>
-            <img src="assert/images/page2_img1.jpg" alt="" class="img_inner fleft">
+            <img src="<?php echo base_url()?>assert/images/page2_img1.jpg" alt="" class="img_inner fleft">
             <div class="extra_wrapper">
                 <div class="text1 color2">
                     <a href="#">Lorem ipsum dolor sit amet, consecteturpiscinger elit. </a>
