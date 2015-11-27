@@ -1,7 +1,7 @@
 <div class="content">
     <div class="container_12 orders_h">
         <div class="grid_12">
-            <h3 class="color1">Your next service date:- 05<sup>th</sup> of December 2015</h3>
+            <h3 class="color1" style="padding: 0;margin: 0">Your next service date:- 05<sup>th</sup> of December 2015</h3>
 
         </div>
         </br>

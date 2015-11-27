@@ -4,66 +4,55 @@
             <h3>Manager Add and Update Operations</h3>
             <form action="<?php echo base_url()?>index.php/home/manager_signup" style="float: right"><input type="submit" value="Add Manager" class="service-btn"></form>
         </div>
+
         <div class="grid_12">
-            <form id="manager-form">
+            <form id="manager-form"  method="post" action="<?php echo base_url()?>index.php/home/search_manager">
                 <div class="form-group grid_2">
                     <label class="grid_4">First name: </label>
                     <span class="grid_4">
-                        <input type="text" placeholder="First Name" required>
+                        <input type="text" name="FirstName" placeholder="First Name" required>
                     </span>
                 </div>
                 <div class="form-group grid_2">
                     <label class="grid_4">Last Name: </label>
                     <span class="grid_4">
-                        <input type="text" placeholder="Last Name" required>
+                        <input type="text" name="LastName" placeholder="Last Name" required>
                     </span>
                 </div>
-                <div class="form-group grid_2">
-                    <label class="grid_4">Search Manager</label>
-                    <span class="grid_3">
-                        <button>Search</button>
+                <div class="form-group grid_12">
+                        <span class="grid_4">
+                        <input type="submit"  value="Search">
                     </span>
                 </div>
-
             </form>
         </div>
+
         <div class="clear"></div><br><br>
-        <div class="grid_16">
-            <table class="table_content">
+        <div class='grid_16'>
+            <table class='table_content'>
                 <thead>
                 <tr>
-                    <th class="grid_2">First name</th>
-                    <th class="grid_2">Last Name</th>
-                    <th class="grid_2">Address No |street |City</th>
-                    <th class="grid_2">Contact</th>
-                    <th class="grid_2">Email Address</th>
-                    <th class="grid_2">Actions</th>
+                    <th class='grid_2'>First name</th>
+                    <th class='grid_2'>Last Name</th>
+                    <th class='grid_2'>Address No |street |City</th>
+                    <th class='grid_2'>Contact</th>
+                    <th class='grid_2'>Email Address</th>
+                    <th class='grid_2'>Actions</th>
                 </tr>
                 </thead>
                 <tbody>
-                <tr>
-                    <td class="grid_2" align="center">Sunil</td>
-                    <td class="grid_2" align="center">Kumara</td>
-                    <td class="grid_2" align="center"> 12A ,Kiridiwela, Gampaha</td>
-                    <td class="grid_2" align="center">077-3243234</td>
-                    <td class="grid_2" align="center">sunilkuma@gmail.com</td>
-                    <td class="grid_2" align="center"><a href="#" class="edit">Edit</a> &nbsp;
-                        <a href="#" class="delete">Delete</a>
+                <?php foreach($posts as $post ) {?>
+                    <tr>
+                    <td class='grid_2' align='center'><?php echo $post->First_name ?></td>
+                    <td class='grid_2' align='center'><?php echo $post->Last_name ?></td>
+                    <td class='grid_2' align='center'><?php echo $post->Address_no.','.$post->Address_street.','.$post->Address_city ?></td>
+                    <td class='grid_2' align='center'><?php echo $post->Contact ?></td>
+                    <td class='grid_2' align='center'><?php echo $post->Email_address ?></td>
+                    <td class='grid_2' align='center'><a href="<?php echo base_url()?>index.php/home/delete_manager/<?php echo $post->User_ID ?>" class='Remove'>Remove</a>
                     </td>
                 </tr>
 
-                <tr>
-                    <td class="grid_2" align="center">Sunil</td>
-                    <td class="grid_2" align="center">Kumara</td>
-                    <td class="grid_2" align="center">120/3 ,kottawa, Mahara</td>
-                    <td class="grid_2" align="center">071-234523</td>
-                    <td class="grid_2" align="center">sunil@gmail.com</td>
-                    <td class="grid_2" align="center"><a href="#" class="edit">Edit</a> &nbsp;
-                        <a href="#" class="delete">Delete</a>
-                    </td>
-                </tr>
-
-
+                <?php }?>
                 </tbody>
 
 

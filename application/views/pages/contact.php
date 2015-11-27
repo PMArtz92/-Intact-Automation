@@ -4,7 +4,7 @@
             <h3>Find Us</h3>
             <div class="map">
                 <figure>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24214.807650104907!2d-73.94846048422478!3d40.65521573400813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1395650655094" style="border:0"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2355.133484688518!2d79.96964017589268!3d6.908937936616801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae256d0e9b123c9%3A0xf76d5a5ed4e3d731!2sPittugala+Bus+Stop!5e0!3m2!1sen!2ssg!4v1448614955168" style="border:0"></iframe>
                 </figure>
             </div>
         </div>

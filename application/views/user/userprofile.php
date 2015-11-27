@@ -2,7 +2,7 @@
     <div class="container_12">
         <div class="grid_12">
             <h3>My Profile</h3>
-            <p><a href="<?php echo base_url()?>home/userprofileedit">Edit</a></p>
+            <p><a href="<?php echo base_url()?>index.php/home/userprofileedit">Edit</a></p>
         </div>
 
         <div class="">

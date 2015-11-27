@@ -32,16 +32,7 @@ class Home extends CI_Controller {
         $this->load->view("pages/service_form");
         $this->load->view("template/footer");
     }
-    public function userprofile(){
-        $this->load->view("template/headeruser");
-        $this->load->view("user/userprofile");
-        $this->load->view("template/footer");
-    }
-    public function orders(){
-        $this->load->view("template/headeruser");
-        $this->load->view("user/orders");
-        $this->load->view("template/footer");
-    }
+
     public function signup(){
         $this->load->view("template/headeruser");
         $this->load->view("user/signup");
@@ -74,8 +65,10 @@ class Home extends CI_Controller {
     }
 
     public function manager_operation(){
+        $this->load->model('search_system_module');
+        $this->data['posts']=$this->search_system_module->view_manager_detail();
         $this->load->view("template/headeradmin");
-        $this->load->view("admin/manager_operation");
+        $this->load->view('admin/manager_operation',$this->data);
         $this->load->view("template/footer");
     }
 
@@ -86,8 +79,10 @@ class Home extends CI_Controller {
     }
 
     public function employee_operation(){
+        $this->load->model('search_system_module');
+        $this->data['posts']=$this->search_system_module->view_employee_detail();
         $this->load->view("template/headeradmin");
-        $this->load->view("admin/employee_operation");
+        $this->load->view('admin/employee_operation',$this->data);
         $this->load->view("template/footer");
     }
 
@@ -125,16 +120,81 @@ class Home extends CI_Controller {
         }
     }
 
+    public  function search_manager(){
+
+        $this->load->model('search_system_module');
+        $this->data['posts']=$this->search_system_module->search_manager_detail();
+        $this->load->view("template/headeradmin");
+        $this->load->view('admin/manager_operation',$this->data);
+        $this->load->view("template/footer");
+    }
+
+    public  function search_employee(){
+
+        $this->load->model('search_system_module');
+        $this->data['posts']=$this->search_system_module->search_employee_detail();
+        $this->load->view("template/headeradmin");
+        $this->load->view('admin/employee_operation',$this->data);
+        $this->load->view("template/footer");
+    }
+
+    public function delete_manager($user_id){
+        $this->load->model('search_system_module');
+        $this->data['posts']=$this->search_system_module->delete_Manager_detail($user_id);
+        $this->load->view("template/headeradmin");
+        $this->load->view('admin/employee_operation',$this->data);
+        $this->load->view("template/footer");
+    }
+
+    public function delete_employee($user_id){
+        $this->load->model('search_system_module');
+        $this->data['posts']=$this->search_system_module->delete_Employee_detail($user_id);
+        $this->load->view("template/headeradmin");
+        $this->load->view('admin/employee_operation',$this->data);
+        $this->load->view("template/footer");
+    }
+
+
+    public function invoice(){
+        $this->load->view("template/headeruser");
+        $this->load->view("user/invoice");
+        $this->load->library('someclass');
+        $this->load->library('someclass');
+        //$this->load->view("template/footer");
+    }
+
+    /*-------User dashboard----------*/
+
+
     public function online(){
         $this->load->view("template/headeruser");
         $this->load->view("user/online");
         //$this->load->view("template/footer");
     }
 
+
+
     public function mobile(){
         $this->load->view("template/headeruser");
         $this->load->view("user/mobile");
         //$this->load->view("template/footer");
+    }
+
+    public function orders(){
+        $this->load->view("template/headeruser");
+        $this->load->view("user/orders");
+    }
+
+    public function userprofile(){
+        $this->load->view("template/headeruser");
+        $this->load->view("user/userprofile");
+        $this->load->view("template/footer");
+    }
+
+    public function userprofileedit(){
+        $this->load->view("template/headeruser");
+        $this->load->view("user/userprofile-edit");
+        $this->load->view("template/footer");
     }
 
 }

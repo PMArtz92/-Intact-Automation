@@ -74,8 +74,9 @@
                                   </div>
                                     <div><a href="#" style="font-size: 16px"><p>Dont have a account?</p></p></a></div>
                             </form></li>
-                            <!--<li><a href="<?php /*echo base_url()*/?>index.php/home/orders">My Account</a></li>
-                            <li><a href="<?php /*echo base_url()*/?>index.php/home/manager_operation">Admin</a></li>-->
+                            <?php ?>
+                            <li><a href="<?php echo base_url()?>index.php/home/orders">My Account</a></li>
+                            <li><a href="<?php echo base_url()?>index.php/home/manager_operation">Admin</a></li>
                         </ul>
                     </nav>
                     <div class="clear"></div>
