@@ -926,3 +926,26 @@ header h1 a {
     box-shadow: #979797 1px 1px 2px ;
     color: #000;
 }
+
+/*#top > div.main > header > div.menu_block > div > div.grid_12 > nav > ul > li:nth-child(5) > form > div.form-group > input.login-btn*/
+#top .main .menu_block nav ul li .form-group .login-btn{
+    height: 25px !important;
+    width: 80px !important;
+    font-size: 16px !important;
+    background-color: #fdc903 !important;
+    border: solid thin #fdad0a !important;
+    float: right;
+    text-shadow: none;
+    margin-left: 5px;
+}
+
+#top .main .menu_block nav ul li .form-group .login-btn:hover{
+    border: solid thin #fdad0a !important;
+    text-shadow:0 1px 0 #080808 !important;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    box-shadow: #979797 1px 1px 2px ;
+    color: #000;
+}

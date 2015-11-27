@@ -124,4 +124,17 @@ class Home extends CI_Controller {
             $this->load->view("template/footer");
         }
     }
+
+    public function online(){
+        $this->load->view("template/headeruser");
+        $this->load->view("user/online");
+        //$this->load->view("template/footer");
+    }
+
+    public function mobile(){
+        $this->load->view("template/headeruser");
+        $this->load->view("user/mobile");
+        //$this->load->view("template/footer");
+    }
+
 }

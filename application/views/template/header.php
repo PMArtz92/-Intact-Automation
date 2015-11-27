@@ -66,8 +66,16 @@
                             <li><a href="<?php echo base_url()?>index.php/home/about">About</a></li>
                             <li><a href="<?php echo base_url()?>index.php/home/service">Services</a></li>
                             <li><a href="<?php echo base_url()?>index.php/home/contact">Contacts</a></li>
-                            <li><a href="<?php echo base_url()?>index.php/home/orders">My Account</a></li>
-                            <li><a href="<?php echo base_url()?>index.php/home/manager_operation">Admin</a></li>
+                            <li><form>
+                                  <div class="form-group">
+                                      <input type="text" value="user name" required>
+                                      <input type="text" value="password" required>
+                                      <input class="login-btn" type="button" value="Login" required>
+                                  </div>
+                                    <div><a href="#" style="font-size: 16px"><p>Dont have a account?</p></p></a></div>
+                            </form></li>
+                            <!--<li><a href="<?php /*echo base_url()*/?>index.php/home/orders">My Account</a></li>
+                            <li><a href="<?php /*echo base_url()*/?>index.php/home/manager_operation">Admin</a></li>-->
                         </ul>
                     </nav>
                     <div class="clear"></div>

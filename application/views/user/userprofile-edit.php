@@ -1,10 +1,12 @@
 <div class="content">
     <div class="container_12">
         <div class="grid_12">
-            <h3>Signup Today..!</h3>
+            <h3>Edit your profile</h3>
         </div>
 
         <div class="">
+           <!-- --><?php /*echo validation_errors(); */?>
+            <?php /*echo form_open('username_edit/username_edit','url'); */?>
             <form id="form">
                 <div class="form-group grid_9">
                     <label class="grid_4">User ID: </label>
@@ -68,7 +70,7 @@
                 </div>
                 <div class="form-group grid_9 submit-form">
                     <span class="push_4 grid_5">
-                        <input type="submit" value="Sign Up" class="service-btn">
+                        <input type="submit" value="Save" class="service-btn">
                     </span>
                 </div>
             </form>

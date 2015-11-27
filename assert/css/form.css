@@ -18,6 +18,13 @@
     padding: 5px 18px 7px;
 }
 
+#form input[type="text"]{
+    color: #c3c3c3 !important;
+}
+
+#form input[type="text"]:focus {
+    color: #000 !important;
+}
 
 #form textarea {
 	width: 100%;
