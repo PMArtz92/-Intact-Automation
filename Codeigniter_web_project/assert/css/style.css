@@ -301,6 +301,14 @@ header h1 a img {
     margin-right: 17px;
 }
 
+.banner i {
+    position: relative;
+    top: -1px;
+    float: left;
+    margin-right: 17px;
+    color: #BCBCBD;
+}
+
 .banner a {
     font-size: 30px;
     float: right;
@@ -937,4 +945,18 @@ header h1 a {
     text-align: center;
     color: #fff;
 
+}
+
+/*--------------User order------------*/
+
+.banner .booka{
+    float: left;
+    font-size: 100%;
+    line-height: 48px;
+    padding-top: 10px;
+}
+
+.orders_h h3,h4,h5,h6{
+    padding: 10px 0 0 0;
+    margin: 0;
 }

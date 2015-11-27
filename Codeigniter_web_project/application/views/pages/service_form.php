@@ -56,7 +56,7 @@
                 <div class="form-group grid_9">
                     <label class="grid_4">Important Notes: </label>
                     <span class="grid_5">
-                        <textarea rows="4" cols="50"></textarea>
+                        <textarea rows="2" cols="50"></textarea>
                     </span>
                 </div>
                 <div class="form-group grid_9 submit-form">

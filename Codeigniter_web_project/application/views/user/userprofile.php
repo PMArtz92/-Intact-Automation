@@ -1,76 +1,71 @@
 <div class="content">
     <div class="container_12">
         <div class="grid_12">
-            <h3>Signup Today..!</h3>
+            <h3>My Profile</h3>
+            <p><a href="<?php echo base_url()?>home/userprofileedit">Edit</a></p>
         </div>
 
         <div class="">
             <form id="form">
                 <div class="form-group grid_9">
-                    <label class="grid_4">User ID: </label>
+                    <label class="grid_4"><b>User ID:</b> </label>
                     <span class="grid_5">
                        <label><p>IA-10012</p></label>
                     </span>
                 </div>
                 <div class="form-group grid_9">
-                    <label class="grid_4">First Name: </label>
+                    <label class="grid_4"><b>First Name:</b> </label>
                     <span class="grid_5">
-                        <input type="text" value="first name" required>
+                        <label class="grid_4">Pasan</label>
                     </span>
                 </div>
 
                 <div class="form-group grid_9">
-                    <label class="grid_4">Last Name: </label>
+                    <label class="grid_4"><b>Last Name:</b> </label>
                     <span class="grid_5">
-                        <input type="text" value="last name" required>
+                         <label class="grid_4">Ranathunga</label>
                     </span>
                 </div>
 
                 <div class="form-group grid_9">
-                    <label class="grid_4">Address No: </label>
+                    <label class="grid_4"><b>Address No:</b> </label>
                     <span class="grid_5">
-                        <input type="text" value="address no" required>
+                         <label class="grid_4">288/A</label>
                     </span>
                 </div>
 
                 <div class="form-group grid_9">
-                    <label class="grid_4">Address Street: </label>
+                    <label class="grid_4"><b>Address Street:</b> </label>
                     <span class="grid_5">
-                        <input type="text" value="street" required>
+                        <label class="grid_4">Kaduwela Road</label>
                     </span>
                 </div>
 
                 <div class="form-group grid_9">
-                    <label class="grid_4">Address City: </label>
+                    <label class="grid_4"><b>Address City: </b></label>
                      <span class="grid_5">
-                        <input type="text" value="city" required>
+                         <label class="grid_4">Malabe</label>
                     </span>
                 </div>
                 <div class="form-group grid_9">
-                    <label class="grid_4">Contact: </label>
+                    <label class="grid_4"><b>Contact:</b> </label>
                      <span class="grid_5">
-                        <input type="text" value="contact" required>
+                         <label class="grid_4">0719555888</label>
                     </span>
                 </div>
 
                 <div class="form-group grid_9">
-                    <label class="grid_4">Email: </label>
+                    <label class="grid_4"><b>Email:</b> </label>
                      <span class="grid_5">
-                        <input type="text" value="email" required>
+                         <label class="grid_4">pasan@gmail.com</label>
                     </span>
                 </div>
 
-                <div class="form-group grid_9">
-                    <label class="grid_4">Password: </label>
-                     <span class="grid_5">
-                        <input type="text" value="password" required>
-                    </span>
-                </div>
-                <div class="form-group grid_9 submit-form">
+<!--                <div class="form-group grid_9 submit-form">
                     <span class="push_4 grid_5">
                         <input type="submit" value="Sign Up" class="service-btn">
                     </span>
-                </div>
+                </div>-->
             </form>
         </div>
 
