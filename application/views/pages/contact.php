@@ -12,17 +12,16 @@
             <h3>Contact Info</h3>
             <div class="map">
                 <div class="text1 color2">Lorem ipsum dolor sit amet, consecteturpiscinger elit um dolor sit amet, consecteturpiscing.</div>
-                <p>Don’t forget, 24/7 support is available for TemplateMonster’s <span class="color1"><a href="http://www.templatemonster.com/website-templates.php" rel="nofollow">premium themes</a></span> only. Free ones lack this privilege.</p>
-                <p>Use <span class="color1"><a href="http://www.templatetuning.com/" rel="nofollow">Template Tuning</a></span> services if you need any help in customization of your freebie.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                 <address>
                     <dl>
-                        <dt>The Company Name Inc. <br>
-                            9870 St Vincent Place,<br>
-                            Glasgow, DC 45 Fr 45.
+                        <dt>Intact Auto Inc. <br>
+                            9870 Kaduwela Road,<br>
+                            Malabe.
                         </dt>
                         <dd><span>Telephone:</span> +1 800 603 6035</dd>
                         <dd><span>FAX:</span> +1 800 889 9898</dd>
-                        <dd>E-mail: <a href="#" class="color1">mail@demolink.org</a></dd>
+                        <dd>E-mail: <a href="#" class="color1">intactauto@gmail.com</a></dd>
                     </dl>
                 </address>
             </div>

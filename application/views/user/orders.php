@@ -15,12 +15,12 @@
                 <div class="maxheight">
                     <div class="banner_title">
                         <i class="fa fa-laptop" style="font-size: 100px;"></i>
-                        <div class="extra_wrapper"><a href="<?php echo base_url()?>home/online" class="booka"><div class="color1">Online</div>
+                        <div class="extra_wrapper"><a href="<?php echo base_url()?>index.php/home/online" class="booka"><div class="color1">Online</div>
                             Service Booking</a>
                         </div>
                     </div>
                     Hem ipsum dolor sit amet, consectetur adipiscinger elit. In mollis erat mattis neque facilisis, sit ameter ultricies erat rutrum. Cras facilisis, nulla vel viver auctor, leo magna sodales felis, quis malesuader
-                    <a href="<?php echo base_url()?>home/online" class="fa fa-share-square"></a>
+                    <a href="<?php echo base_url()?>index.php/home/online" class="fa fa-share-square"></a>
                 </div>
             </div>
         </div>
@@ -29,12 +29,12 @@
                 <div class="maxheight">
                     <div class="banner_title">
                         <i class="fa fa-mobile-phone" style="font-size: 100px;"></i>
-                        <div class="extra_wrapper"><a href="<?php echo base_url()?>home/online" class="booka"><div class="color1">Mobile</div>
+                        <div class="extra_wrapper"><a href="<?php echo base_url()?>index.php/home/online" class="booka"><div class="color1">Mobile</div>
                             Assistance</a>
                         </div>
                     </div>
                     Hem ipsum dolor sit amet, consectetur adipiscinger elit. In mollis erat mattis neque facilisis, sit ameter ultricies erat rutrum. Cras facilisis, nulla vel viver auctor, leo magna sodales felis, quis malesuader
-                    <a href="<?php echo base_url()?>home/mobile" class="fa fa-share-square"></a>
+                    <a href="<?php echo base_url()?>index.php/home/mobile" class="fa fa-share-square"></a>
                 </div>
             </div>
         </div>

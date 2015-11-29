@@ -66,17 +66,25 @@
                             <li><a href="<?php echo base_url()?>index.php/home/about">About</a></li>
                             <li><a href="<?php echo base_url()?>index.php/home/service">Services</a></li>
                             <li><a href="<?php echo base_url()?>index.php/home/contact">Contacts</a></li>
-                            <li><form>
-                                  <div class="form-group">
-                                      <input type="text" value="user name" required>
-                                      <input type="text" value="password" required>
-                                      <input class="login-btn" type="button" value="Login" required>
-                                  </div>
-                                    <div><a href="#" style="font-size: 16px"><p>Dont have a account?</p></p></a></div>
-                            </form></li>
-                            <?php ?>
-                            <li><a href="<?php echo base_url()?>index.php/home/orders">My Account</a></li>
-                            <li><a href="<?php echo base_url()?>index.php/home/manager_operation">Admin</a></li>
+                            <?php if($this->session->userdata('logged_in') == TRUE){
+                             ?>
+                                <?php if($this->session->userdata('user_type') == "customer"){
+                                    ?>
+                                    <li><a href="<?php echo base_url()?>index.php/home/orders">My Account</a></li>
+                                <?php }else{?>
+                                    <li><a href="<?php echo base_url()?>index.php/home/manager_operation">Admin</a></li>
+                                <?php } ?>
+                            <li><div><a href="<?php echo base_url()?>index.php/home/logout">logout</a></div></li>
+                            <?php }else{?>
+                            <li><form method="post" action="<?php echo base_url()?>index.php/home/login">
+                                    <div class="form-group">
+                                        <input type="text" name=First_name value="user name" required>
+                                        <input type="password" name=Password value="password" required>
+                                        <input class="login-btn" type="submit" value="Login" required>
+                                    </div>
+                                    <div><a href="<?php echo base_url()?>index.php/home/signup" style="font-size: 16px"><p>Dont have a account?</p></p></a></div>
+                                </form></li>
+                            <?php } ?>
                         </ul>
                     </nav>
                     <div class="clear"></div>

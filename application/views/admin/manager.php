@@ -6,7 +6,6 @@
                 <div class="banner">
                     <div class="maxheight">
                         <div class="banner_title">
-                            <img src="assert/images/icon1.png" alt="">
                             <div class="extra_wrapper"> Manager
                                 <div class="color1">Add/Remove</div>
                             </div>
@@ -20,7 +19,6 @@
                 <div class="banner">
                     <div class="maxheight">
                         <div class="banner_title">
-                            <img src="assert/images/icon2.png" alt="">
                             <div class="extra_wrapper">Manager
                                 <div class="color1">View</div>
                             </div>

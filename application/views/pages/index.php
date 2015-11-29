@@ -1,8 +1,8 @@
 <div class="slider_wrapper ">
 				<div id="camera_wrap" class="">
-					<div data-src="assert/images/slide.jpg" ></div>
-					<div data-src="assert/images/slide1.jpg" ></div>
-					<div data-src="assert/images/slide2.jpg"></div>
+					<div data-src="<?php echo base_url(); ?>assert/images/slide.jpg" ></div>
+					<div data-src="<?php echo base_url(); ?>assert/images/slide1.jpg" ></div>
+					<div data-src="<?php echo base_url(); ?>assert/images/slide2.jpg"></div>
 				</div>
 			</div>
 			<div class="container_12">
@@ -10,7 +10,7 @@
 					<div class="banner">
 						<div class="maxheight">
 							<div class="banner_title">
-								<img src="assert/images/icon1.png" alt="">
+								<img src="<?php echo base_url(); ?>assert/images/icon1.png" alt="">
 								<div class="extra_wrapper">Fast&amp;
 									<div class="color1">Quick</div>
 								</div>
@@ -24,7 +24,7 @@
 					<div class="banner">
 						<div class="maxheight">
 							<div class="banner_title">
-								<img src="assert/images/icon2.png" alt="">
+								<img src="<?php echo base_url(); ?>assert/images/icon2.png" alt="">
 								<div class="extra_wrapper">Best
 									<div class="color1">Prices</div>
 								</div>
@@ -38,7 +38,7 @@
 					<div class="banner">
 						<div class="maxheight">
 							<div class="banner_title">
-								<img src="assert/images/icon3.png" alt="">
+								<img src="<?php echo base_url(); ?>assert/images/icon3.png" alt="">
 								<div class="extra_wrapper">New
 									<div class="color1">Look</div>
 								</div>

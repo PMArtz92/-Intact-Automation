@@ -14,17 +14,10 @@
 	-webkit-box-sizing: border-box; /* Safari */
 	color: #878787;
     font: 14px/20px 'Open Sans', sans-serif;
-    border: 1px solid #f0efef;
+    border: 1px solid #d5d4d4;
     padding: 5px 18px 7px;
 }
 
-#form input[type="text"]{
-    color: #c3c3c3 !important;
-}
-
-#form input[type="text"]:focus {
-    color: #000 !important;
-}
 
 #form textarea {
 	width: 100%;
@@ -41,7 +34,7 @@
 	margin: 0;
 	color: #878787;
     font: 14px/20px 'Open Sans', sans-serif;
-    border: 1px solid #f0efef;
+    border: 1px solid #d5d4d4;
     padding: 11px 18px 7px;
 }
 
